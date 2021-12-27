@@ -1,0 +1,679 @@
+.content{
+	
+		min-height: 100%;
+		display: flex;
+		flex-direction: column;
+}
+ul, li{
+	text-decoration: none;
+}
+/* Contact Section */
+.Home-Contact li a {
+	color: inherit;
+}
+.Home-Contact .fa {
+	padding: 10px;
+	font-size: 30px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+}
+.Home-Contact .fa:hover {
+	opacity: 0.7;
+}
+.Home-Contact .fa-facebook {
+	background: #3b5998;
+}
+.Home-Contact .fa-twitter {
+	background: #55acee;
+}
+.Home-Contact .fa-google {
+	background: #dd4b39;
+}
+.Home-Contact .fa-linkedin {
+	background: #007bb5;
+}
+.Home-Contact .fa-youtube {
+	background: #bb0000;
+}
+.Home-Contact .fa-instagram {
+	background: #125688;
+}
+/* END Contact Section */
+
+/* Booking Page */
+.Booking .Profile-Rating {
+	background-color: #ceeafa;
+	margin-bottom: 100pt;
+}
+.Booking .rating .fa {
+	font-size: 25px;
+}
+.Booking .rating .checked {
+	color: orange;
+}
+/* END Booking Page */
+
+/* Navigation */
+.Navbar {
+	height: 40pt;
+	font-size: medium;
+}
+.Navbar .nav-link {
+	color: white;
+}
+.Navbar .nav-link:hover {
+	color: lightgray;
+}
+/* END Navigation */
+
+/* Chatee Page */
+.Chatee .chat-window {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	position: relative;
+	box-shadow: 0px 2px 8px rgba(183, 183, 183, 0.25);
+	border-radius: 8px;
+}
+.Chatee .chat-cont-left {
+	border-right: 1px solid #f0f0f0;
+	-ms-flex: 0 0 35%;
+	flex: 0 0 35%;
+	left: 0;
+	max-width: 35%;
+	position: relative;
+	z-index: 4;
+}
+.Chatee .chat-cont-left .chat-header {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #fff;
+	border-bottom: 1px solid #f0f0f0;
+	color: #26292c;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 72px;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: space-between;
+	padding: 0 15px;
+}
+.Chatee .chat-cont-left .chat-header span {
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: capitalize;
+}
+.Chatee .chat-cont-left .chat-header .chat-compose {
+	color: #8a8a8a;
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+.Chatee .chat-cont-left .chat-search {
+	background-color: transparent;
+	border-bottom: 1px solid #e5e5e5;
+	padding: 10px 15px;
+	width: 100%;
+}
+.Chatee .chat-cont-left .chat-search .input-group {
+	width: 100%;
+}
+.Chatee .chat-cont-left .chat-search .input-group .form-control {
+	background-color: #fff;
+	border-radius: 50px;
+	padding-left: 36px;
+}
+.Chatee .chat-cont-left .chat-search .input-group .form-control:focus {
+	border-color: #ccc;
+	box-shadow: none;
+}
+.Chatee .chat-cont-left .chat-search .input-group .input-group-end {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	bottom: 0;
+	color: #666;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	left: 15px;
+	pointer-events: none;
+	position: absolute;
+	top: 0;
+	z-index: 4;
+}
+.Chatee .chat-cont-left .chat-users-list {
+	background-color: #fff;
+}
+.Chatee .chat-cont-left .chat-users-list a.media {
+	border-bottom: 1px solid #f0f0f0;
+	padding: 10px 15px;
+	transition: all 0.2s ease 0s;
+}
+.Chatee .chat-cont-left .chat-users-list a.media:last-child {
+	border-bottom: 0;
+}
+.Chatee .chat-cont-left .chat-users-list a.media .media-img-wrap {
+	margin-right: 15px;
+	position: relative;
+}
+.Chatee .chat-cont-left .chat-users-list a.media .media-img-wrap .avatar {
+	height: 45px;
+	width: 45px;
+}
+.Chatee .chat-cont-left .chat-users-list a.media .media-img-wrap .status {
+	bottom: 7px;
+	height: 10px;
+	right: 4px;
+	position: absolute;
+	width: 10px;
+	border: 2px solid #fff;
+}
+.Chatee .chat-cont-left .chat-users-list a.media .media-body {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: space-between;
+}
+.Chatee .chat-cont-left .chat-users-list a.media .media-body > div:first-child .user-name,
+.Chatee .chat-cont-left .chat-users-list a.media .media-body > div:first-child .user-last-chat {
+	max-width: 250px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.Chatee .chat-cont-left .chat-users-list a.media .media-body > div:first-child .user-name {
+	color: #26292c;
+	text-transform: capitalize;
+}
+.Chatee .chat-cont-left .chat-users-list a.media .media-body > div:first-child .user-last-chat {
+	color: #8a8a8a;
+	font-size: 14px;
+	line-height: 24px;
+}
+.Chatee .chat-cont-left .chat-users-list a.media .media-body > div:last-child {
+	text-align: right;
+}
+.Chatee .chat-cont-left .chat-users-list a.media .media-body > div:last-child .last-chat-time {
+	color: #8a8a8a;
+	font-size: 13px;
+}
+.Chatee .chat-cont-left .chat-users-list a.media:hover {
+	background-color: #f5f5f6;
+}
+.Chatee .chat-cont-left .chat-users-list a.media.read-chat .media-body > div:last-child .last-chat-time {
+	color: #8a8a8a;
+}
+.Chatee .chat-cont-left .chat-users-list a.media.active {
+	background-color: #f5f5f6;
+}
+.Chatee .chat-cont-right {
+	-ms-flex: 0 0 65%;
+	flex: 0 0 65%;
+	max-width: 65%;
+}
+.Chatee .chat-cont-right .chat-header {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	background-color: #fff;
+	border-bottom: 1px solid #f0f0f0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	height: 59px;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: space-between;
+	padding: 0 15px;
+}
+.Chatee .chat-cont-right .message-page {
+	padding: 0 0 40px 0;
+	width: 100%;
+	margin-top: 0px;
+}
+.Chatee .chat-cont-right .message-index {
+	border: 1px solid #fff;
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+.Chatee .chat-cont-right .messages {
+	padding: 30px 100px 0 25px;
+}
+.Chatee .chat-cont-right .msg-page {
+	height: 516px;
+	width: 900px;
+	overflow-y: auto;
+}
+.Chatee .chat-cont-right .recived-chat-img {
+	display: inline-block;
+	width: 30px;
+	/* float: left; */
+}
+.Chatee .chat-cont-right .recived-msg {
+	display: inline-block;
+	padding: 0 0 0 40px;
+	vertical-align: top;
+	width: 92%;
+}
+.Chatee .chat-cont-right .recived-msg-inbox {
+	width: 75%;
+}
+.Chatee .chat-cont-right .recived-msg-inbox p {
+	background: #d9d9d9 none repeat scroll 0 0;
+	border-radius: 10px;
+	color: #646464;
+	font-size: 14px;
+	margin: 0;
+	padding: 5px 10px 5px 12px;
+	width: 90%;
+}
+.Chatee .chat-cont-right .time {
+	color: #777;
+	display: block;
+	font-size: 12px;
+	margin: 8px 0 0;
+}
+.Chatee .chat-cont-right .outgoing-chat {
+	overflow: hidden;
+	margin: 26px 20px;
+}
+.Chatee .chat-cont-right .outgoing-chat-msg p {
+	background: #45b4e3 none repeat scroll 0 0;
+	color: #fff;
+	border-radius: 10px;
+	font-size: 14px;
+	margin: 0;
+	padding: 5px 10px 5px 12px;
+	width: 100%;
+}
+.Chatee .chat-cont-right .outgoing-chat-msg {
+	float: left;
+	width: 75%;
+	margin-left: 15%;
+}
+.Chatee .chat-cont-right .outgoing-chat-img {
+	display: inline-block;
+	width: 40px;
+}
+.Chatee .chat-cont-right .msg-bottom {
+	position: relative;
+	height: 70px;
+	top: 41px;
+	background-color: #27b9eb;
+}
+.Chatee .chat-cont-right .input-group {
+	float: right;
+	margin-top: -10px;
+	margin-right: 20px;
+	outline: none !important;
+	border-radius: 20px;
+	width: 86% !important;
+	background: #fff;
+}
+.Chatee .chat-cont-right .form-control {
+	border: none !important;
+	border-radius: 20px !important;
+}
+.Chatee .chat-cont-right .input-group-text {
+	background: transparent !important;
+	border: none !important;
+}
+.Chatee .chat-cont-right .input-group .fa {
+	color: darkgray;
+	float: right;
+}
+.Chatee .chat-cont-right .input-group .input-group-append .btn.msg-send-btn {
+	background-color: lightblue;
+
+	border-radius: 6px;
+	color: darkslategrey;
+	margin-left: 10px;
+	min-width: 100px;
+	font-size: 16px;
+}
+.Chatee .chat-cont-right .input-group-prepend {
+	float: left;
+	margin-top: 26px;
+	width: 20% !important;
+	margin-left: 25px;
+	font-size: 25px;
+	cursor: pointer;
+	color: aliceblue;
+}
+.Chatee .chat-cont-right .form-control:focus {
+	border-color: none !important;
+	box-shadow: none !important;
+	border-radius: 20px;
+}
+/* END Chatee Page */
+
+/* Search Page*/
+.Search body {
+	text-align: center;
+	position: relative;
+	margin-left: 200px;
+}
+.Search form {
+	background-color: #2186fb;
+	height: 45px;
+	margin-top: 50px;
+	width: 1500px;
+	display: block;
+}
+.Search #bar {
+	margin-top: 6px;
+	width: 1200px;
+	margin-left: 20px;
+	height: 25px;
+}
+.Search i {
+	margin-left: 5px;
+}
+.Search .Filter-Container {
+	position: absolute;
+	float: left;
+	background: #e6e9f5;
+	padding: 10px 10px;
+	width: 150px;
+}
+.Search .Filter-Container div {
+	padding: 10px;
+}
+.Search .location-btn {
+	position: relative;
+	display: block;
+}
+.Search .location-btn button {
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+}
+.Search .Specialities-btn {
+	position: relative;
+	display: block;
+}
+.Search .Specialities-btn button {
+	width: 100%;
+	height: auto;
+	font-size: 18px;
+}
+/* END Search Page */
+
+/* Mentee Page */
+.Mentee body {
+	text-align: center;
+}
+.Mentee img {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.Mentee .About {
+	background-color: #f4f9ff;
+	width: 50%;
+	height: 200px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.Mentee .Personal {
+	background-color: #f4f9ff;
+	width: 50%;
+	height: 200px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+.Mentee .Qualifications {
+	background-color: #f4f9ff;
+	width: 50%;
+	height: 200px;
+	display: inline-block;
+}
+/* END Mentee Page */
+
+/* Mentee Profile Page */
+.Mentee-Profile .custom-sidebar-nav {
+	width: 100%;
+	position: relative;
+}
+.Mentee-Profile .custom-sidebar-nav ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.Mentee-Profile .custom-sidebar-nav ul li {
+	display: block;
+	position: relative;
+	padding: 12px 0;
+	text-align: left;
+}
+.Mentee-Profile .custom-sidebar-nav ul li:last-child {
+	padding-bottom: 0;
+}
+.Mentee-Profile.custom-sidebar-nav ul li a {
+	color: #26292c;
+	display: inline-block;
+	font-size: 15px;
+	width: 100%;
+}
+.Mentee-Profile .custom-sidebar-nav ul li a:hover {
+	color: #1e88e5;
+	opacity: 1;
+}
+.Mentee-Profile .custom-sidebar-nav ul li a.active {
+	color: #1e88e5;
+	opacity: 1;
+}
+.Mentee-Profile .custom-sidebar-nav ul li a i {
+	margin-right: 5px;
+	min-width: 23px;
+}
+.Mentee-Profile .custom-sidebar-nav ul li a span {
+	position: absolute;
+	right: 0;
+	top: 10px;
+	transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+}
+.Mentee-Profile .custom-sidebar-nav ul li a span i {
+	margin-right: 0;
+	min-width: inherit;
+}
+.Mentee-Profile .custom-sidebar-nav ul li a:hover span {
+	right: 15px;
+	transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	-ms-transition: all 0.4s ease;
+	-webkit-transition: all 0.4s ease;
+}
+.Mentee-Profile .dash-widget {
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+.Mentee-Profile .circle-bar {
+	margin-right: 15px;
+}
+.Mentee-Profile .dash-widget h6 {
+	font-size: 16px;
+	font-weight: 400;
+}
+.Mentee-Profile .dash-widget h3 {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+.Mentee-Profile .dash-widget p {
+	color: #757575;
+	font-size: 14px;
+	margin-bottom: 0;
+}
+.Mentee-Profile .dash-board-list .icon-col {
+	font-size: 22px;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.Mentee-Profile .dash-board-list.blue .dash-widget {
+	background-color: rgba(0, 84, 254, 0.07);
+}
+.Mentee-Profile .dash-board-list.green .dash-widget {
+	background-color: rgba(23, 177, 35, 0.1);
+}
+
+.Mentee-Profile .dash-board-list.blue .icon-col {
+	background-color: rgba(0, 84, 254, 0.07);
+}
+.Mentee-Profile .dash-board-list.green .icon-col {
+	background-color: rgba(19, 138, 60, 0.1);
+}
+.Mentee-Profile .pending {
+	background-color: #fba20a;
+	border-radius: 4px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 3px 10px;
+}
+.Mentee-Profile .accept {
+	background-color: #04ae1b;
+	border-radius: 4px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 3px 10px;
+}
+.Mentee-Profile .reject {
+	background-color: #ff0000;
+	border-radius: 4px;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 3px 10px;
+}
+.Mentee-Profile div.dataTables_wrapper div.dataTables_length label,
+.Mentee-Profile div.dataTables_wrapper div.dataTables_filter label {
+	font-weight: normal;
+	text-align: left;
+	white-space: nowrap;
+	display: inline-block;
+	margin-bottom: 1rem;
+}
+.Mentee-Profile div.dataTables_wrapper div.dataTables_filter {
+	text-align: right;
+}
+.Mentee-Profile div.dataTables_wrapper div.dataTables_filter input {
+	margin-left: 0.5em;
+	display: inline-block;
+	width: auto;
+}
+.Mentee-Profile .profile-sidebar {
+	background-color: #fff;
+	border: 1px solid #e3e8eb;
+	margin-bottom: 30px;
+	overflow: hidden;
+	padding: 1.5rem;
+}
+.Mentee-Profile .pro-widget-content {
+	border-bottom: 1px solid #f0f0f0;
+	padding: 20px;
+	text-align: center;
+}
+.Mentee-Profile .user-widget {
+	text-align: center;
+}
+.Mentee-Profile .profile-info-widget {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	text-align: left;
+}
+.Mentee-Profile .mentee-details h5 {
+	color: #757575;
+	font-size: 13px;
+	font-weight: normal;
+	margin-bottom: 8px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.Mentee-Profile.mentee-details h5 i {
+	width: 18px;
+}
+/* Mentee Profile Page */
+
+/* Login Page */
+.Login body {
+	background-color: white;
+	margin: 300px;
+	margin-left: 750px;
+	margin-right: 750px;
+	padding: 200px;
+
+	border-style: solid;
+}
+.Login input {
+	width: 100%;
+	border: none;
+	background-color: #e6e9f5;
+	font-size: 21px;
+}
+.Login .login {
+	width: 300px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+.Login button {
+	position: absolute;
+	top: 58%;
+	left: 42%;
+	background-color: #4958b0;
+	width: 16.5%;
+	font-size: 21px;
+}
+.Login h3 {
+	position: absolute;
+	top: 35%;
+	left: 44%;
+	font-size: 25px;
+}
+.Login h4 {
+	position: absolute;
+	top: 61%;
+	left: 42%;
+}
+.Login a {
+	position: absolute;
+	top: 64%;
+	left: 55%;
+	font-size: 18px;
+}
+/* END Login Page */
+
+/* Register Page */
+.Register h2 {
+	text-align: center;
+}
+.Register p {
+	text-align: center;
+}
+/* END Register Page */

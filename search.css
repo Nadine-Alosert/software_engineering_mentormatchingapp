@@ -1,0 +1,56 @@
+body{
+    text-align: center;
+    position:relative;
+    margin-left: 200px;
+}
+
+form{
+  background-color: #2186fb;
+  height: 45px;
+  margin-top: 50px;
+  width:1500px;
+  display: block;
+}
+
+#bar{
+  margin-top: 6px;
+  width: 1200px;
+  margin-left: 20px;
+  height: 25px;
+}
+
+i{
+  margin-left: 5px;
+}
+
+.Filter-Container{
+  position: absolute;
+  float: left;
+  background: #e6e9f5;
+  padding: 10px 10px;
+  width: 150px;
+}
+
+.Filter-Container div{
+    padding: 10px;
+}
+
+.location-btn{
+  position: relative;
+  display: block;
+}
+.location-btn button{
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+}
+
+.Specialities-btn{
+  position: relative;
+  display: block;
+}
+.Specialities-btn button{
+  width: 100%;
+  height: auto;
+  font-size: 18px;
+}

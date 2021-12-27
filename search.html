@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>search page</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="search.css">
+    <script src="https://use.fontawesome.com/e20c4fd48c.js"> </script>
+
+  </head>
+  <body>
+
+      <form class="searchBar" action="index.html" method="post">
+        <input id="bar" type="text" name="search" placeholder="Search Profiles">
+        <button type="submit" name="" ><i class="fa fa-search"></i></button>
+      </form>
+
+  <div class="Filter-Container">
+
+
+      <div class="location-btn">
+        <h4>Location:</h4>
+          <div>
+        <button onclick="filterSelection('Greater Britain')"> Greater Britain</button>
+        </div>
+          <div>
+            <button onclick="filterSelection('England')"> England</button>
+          </div>
+          <div>
+            <button onclick="filterSelection('Wales')">Wales</button>
+          </div>
+          <div>
+            <button onclick="filterSelection('Scotland')">Scotland </button>
+          </div>
+          <div>
+            <button onclick="filterSelection('Northern Ireland')">Northern Ireland </button>
+          </div>
+
+      </div>
+
+      <div class="Specialities-btn">
+        <h4>Specialities:</h4>
+        <div>
+      <button  onclick="filterSelection('Business')"> Business </button>
+      </div>
+      <div>
+         <button  onclick="filterSelection('Technology')">Technology </button>
+       </div>
+      <div>
+        <button  onclick="filterSelection('Leadership')">Leadership </button>
+      </div>
+      <div>
+        <button  onclick="filterSelection('Teamwork')">Teamwork </button>
+      </div>
+      <div>
+        <button  onclick="filterSelection('Teaching')">Teaching </button>
+      </div>
+      </div>
+  </div>
+
+
+  </body>
+</html>
